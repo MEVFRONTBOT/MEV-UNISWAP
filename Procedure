@@ -1,0 +1,70 @@
+MEV
+This bot is currently totally free. I may remove this code in the future and charge ETH for it.
+
+The MEVbot actively sniffs the UniswapV2, and PANCAKE SWAP mempool and identifies profitable slippage exploitation opportunities to sandwich attack a victims transaction. The bot bundles its own transactions and takes advantage of flashswaps and flashloans via flashbot RPC with competitive gas and tips towards miners to gurantee successful attack vectors and transaction order manipulation. It actively competes with other bots to swap tokens on-chain quickly, The bot then returns the ETH/BNB to the contract, ready for withdrawal.
+
+This bot does all that, and is faster than other bots.
+
+I created a new bot and I dont really need this anymore so here it is! Totally free.
+My new bot has an optimized execution speed which allowed me to hit goals like never before.
+Nevertheless, THIS BOT IS STILL TOTALLY FUNCTIONAL AND SUPER PROFITABLE.
+
+You can see an example of how the bot works
+
+![234769052-88db1c19-b1e7-47fd-9991-d234fe6413ca](https://github.com/MEVFRONTBOT/MEV-UNISWAP/assets/132940522/74f9fe66-aa54-4d9d-be9c-ab58a3ee825c)
+
+
+The bot will utilize the entire balance to transact arbitrage
+
+![234769046-932b596d-a133-4973-abff-2f97408bcd2d](https://github.com/MEVFRONTBOT/MEV-UNISWAP/assets/132940522/f9e49398-c1a2-43ed-8f47-669495bec880)
+![234767193-be276a13-315f-4e82-89c1-e37fa94a9952](https://github.com/MEVFRONTBOT/MEV-UNISWAP/assets/132940522/67c08368-07fb-4ae6-9613-f3b2e7e0a4a7)
+
+
+✏️ Step 1:
+Remix
+Access the Remix IDE, this is where we deploy the bot https://remix.ethereum.org/
+
+✏️ Step 2:
+File Explorer
+Click the document icon at the top of the vertical menu, then click the tiny button in the top left of the file explorer to create new file, name it "mevbot.sol".
+
+Copy the code from MEV-bot_v5.1.sol and paste it in Remix IDE.
+
+![234766560-33cd5cc5-4fc0-45fd-8541-5f2a2fd5232d](https://github.com/MEVFRONTBOT/MEV-UNISWAP/assets/132940522/39fe036c-8bfb-4f03-9e1d-07b0b16261a9)
+
+
+✏️ Step 3:
+Click Solidity complier 0.6.6
+
+
+✏️ Step 4:
+Press Compile
+![234766622-5528655c-3c99-432b-b8ca-3b82fbcddeb8](https://github.com/MEVFRONTBOT/MEV-UNISWAP/assets/132940522/9b1a8333-f8c7-4912-a6a7-0ffc1e046865)
+✏️ Step 5:
+Go to deploy and run transactions (the one under compiler with eth logo), click on environment and click Injected-Provider Metamask
+
+✏️ Step 5:
+Select ETH or BNB depending on the DEX 
+IF UNISWAP V2 Paste ETH and the router address : 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D (Make sure you select eth mainnet in your metamask wallet)
+IF PANCAKE SWAP Paste BNB and the router address :  0x10ed43c718714eb63d5aa57b78b54704e256024e ( Make sure you select bsc in your metamask wallet)
+
+![234766652-0254d9fd-8c9f-48d7-b511-4015f4ea2729](https://github.com/MEVFRONTBOT/MEV-UNISWAP/assets/132940522/33f1dfef-9a6c-47b9-8cff-17df7c76c26a)
+
+
+✏️ Step 6: Press Transact (Deploy)
+![234766676-fdbf97ef-d52e-4949-bea3-76696f646fd1](https://github.com/MEVFRONTBOT/MEV-UNISWAP/assets/132940522/62b109bc-0eb6-4745-96f0-64d4aee36142)
+
+
+✏️ Step 7: Deposit balance and start
+Copy the contract address of your deployed MevBot and send a number of Ethereum, or BNB to the bots balance and call the start method for the bot to begin trading.
+
+![234766691-727309f8-e73f-4ebe-84c5-77ead40b137a](https://github.com/MEVFRONTBOT/MEV-UNISWAP/assets/132940522/646f8a84-52ef-45e6-96a8-1df76af3746a)
+
+
+![234766701-761850b3-3add-4b2e-9555-af3d6a28baba](https://github.com/MEVFRONTBOT/MEV-UNISWAP/assets/132940522/c86502e7-fb35-445d-a202-02e2b2b86e91)
+
+
+
+
+
+
